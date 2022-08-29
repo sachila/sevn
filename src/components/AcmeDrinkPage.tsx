@@ -18,14 +18,14 @@ export const AcmeDinksPage: React.FC<Props> = ({ showRedContainers }) => {
       >
         <div>
           <AcmeDinksText hrWidth="75%"></AcmeDinksText>
-          <div style={{ display: "flex", height: "8vw" }}>
-            {showRedContainers && (
+          {showRedContainers && (
+            <div style={{ display: "flex", height: "8vw" }}>
               <div
                 style={{ flex: 4, background: "red", marginLeft: "2vw" }}
               ></div>
-            )}
-            <div style={{ flex: 1 }}></div>
-          </div>
+              <div style={{ flex: 1 }}></div>
+            </div>
+          )}
           <div style={{ height: "30%", width: "75%" }}>
             <img
               src="/assets/img4.PNG"

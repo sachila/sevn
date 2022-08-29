@@ -5,13 +5,13 @@ interface Props {
 export const BottomSection: React.FC<Props> = ({ showRedContainers }) => {
   return (
     <>
-      <div style={{ height: "8vw", display: "flex" }}>
-        <div style={{ flex: 1 }}></div>
-        {showRedContainers && (
+      {showRedContainers && (
+        <div style={{ height: "8vw", display: "flex" }}>
+          <div style={{ flex: 1 }}></div>
           <div style={{ flex: 4, background: "red" }}></div>
-        )}
-        <div style={{ flex: 1 }}></div>
-      </div>
+          <div style={{ flex: 1 }}></div>
+        </div>
+      )}
       <div style={{ display: "flex", paddingBottom: 10 }}>
         <div style={{ flex: 1 }}></div>
         <div style={{ flex: 4, textAlign: "center" }}>
@@ -29,13 +29,13 @@ export const BottomSection: React.FC<Props> = ({ showRedContainers }) => {
         </div>
         <div style={{ flex: 1 }}></div>
       </div>
-      <div style={{ height: "16vw", display: "flex" }}>
-        <div style={{ flex: 1 }}></div>
-        {showRedContainers && (
+      {showRedContainers && (
+        <div style={{ height: "16vw", display: "flex" }}>
+          <div style={{ flex: 1 }}></div>
           <div style={{ flex: 4, background: "red" }}></div>
-        )}
-        <div style={{ flex: 1 }}></div>
-      </div>
+          <div style={{ flex: 1 }}></div>
+        </div>
+      )}
       <div style={{ display: "flex", justifyContent: "center" }}>
         <span
           style={{
@@ -49,13 +49,13 @@ export const BottomSection: React.FC<Props> = ({ showRedContainers }) => {
           WORK WITH US
         </span>
       </div>
-      <div style={{ height: "8vw", display: "flex" }}>
-        <div style={{ flex: 1 }}></div>
-        {showRedContainers && (
+      {showRedContainers && (
+        <div style={{ height: "8vw", display: "flex" }}>
+          <div style={{ flex: 1 }}></div>
           <div style={{ flex: 4, background: "red" }}></div>
-        )}
-        <div style={{ flex: 1 }}></div>
-      </div>
+          <div style={{ flex: 1 }}></div>
+        </div>
+      )}
       <div style={{ display: "flex", paddingBottom: 10 }}>
         <div style={{ flex: 1 }}></div>
         <div style={{ flex: 4, textAlign: "center" }}>
@@ -84,13 +84,15 @@ export const BottomSection: React.FC<Props> = ({ showRedContainers }) => {
         </div>
         <div style={{ flex: 1 }}></div>
       </div>
-      <div style={{ height: "8vw", display: "flex" }}>
-        <div style={{ flex: 1 }}></div>
-        {showRedContainers && (
+      {showRedContainers && (
+        <div style={{ height: "8vw", display: "flex" }}>
+          <div style={{ flex: 1 }}></div>
+
           <div style={{ flex: 4, background: "red" }}></div>
-        )}
-        <div style={{ flex: 1 }}></div>
-      </div>
+
+          <div style={{ flex: 1 }}></div>
+        </div>
+      )}
       <div
         style={{
           display: "flex",
@@ -111,13 +113,15 @@ export const BottomSection: React.FC<Props> = ({ showRedContainers }) => {
         </span>
         <span style={{ flex: 1 }}>LINKEDIN</span>
       </div>
-      <div style={{ height: "2vw", display: "flex" }}>
-        <div style={{ flex: 1 }}></div>
-        {showRedContainers && (
+      {showRedContainers && (
+        <div style={{ height: "2vw", display: "flex" }}>
+          <div style={{ flex: 1 }}></div>
+
           <div style={{ flex: 4, background: "red" }}></div>
-        )}
-        <div style={{ flex: 1 }}></div>
-      </div>
+
+          <div style={{ flex: 1 }}></div>
+        </div>
+      )}
     </>
   );
 };
